@@ -75,7 +75,7 @@ img {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: skyblue;
+      color: royalblue;
 }
 
 .smalltext {
@@ -106,6 +106,8 @@ nav ul {
 nav ul li {
     float: left;
 }
+
+
 
 nav li a {
     display: block;
