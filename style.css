@@ -44,7 +44,7 @@ main {
 
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
-  text-align: center;             /* tekst centreren */
+  text-align: left;             /* tekst centreren */
 } 
 
 p {
@@ -54,20 +54,32 @@ p {
 
 img {
   margin: 10px 0px;
+  width: 10px;
+  height: 300px;
+  border:ridge 3px blue;
+  
 }
 
 /* Indeling voor hoofd pagina */
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
+.item-plaatje2 {
+ float:right;
+width: 250px;
+height: 150px;
+
+}
+
 .item-plaatje {
   float:left;
   width:250px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+ 
 }
 .item-tekst {
   float:right;
   width: 450px;
+  padding-left: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 
 /* Indeling voor sub pagina */
@@ -77,6 +89,9 @@ img {
 h1, h2, h3 {
       color: royalblue;
 }
+
+
+
 
 .smalltext {
     text-align: center;
@@ -124,3 +139,10 @@ nav li a:hover {
 nav li a.active {
     background-color: skyblue;
 }
+
+
+  } 
+
+}
+
+.
