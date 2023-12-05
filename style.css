@@ -63,7 +63,11 @@ img {
 /* Indeling voor hoofd pagina */
 
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
-
+.item-plaatje3 {
+  float:left;
+  width:300px;
+  height:200px;
+}
 .item-plaatje2 {
  float:right;
 width: 250px;
